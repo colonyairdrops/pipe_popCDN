@@ -3,6 +3,20 @@
 - Offical Docs - [POP_CDN](https://docs.pipe.network/getting-started/quickstart)
 - Watch Video - [Youtube]()
 
+## Download the Node Client Binary
+1. Create Directory
+```bash
+sudo mkdir -p /opt/dcdn
+```
+2. Transfer your binary files (pipe-tool and dcdnd) downloaded from email to the above directory you just created (from local machine to VPS using termius SFTP: Watch Video to understand better)
+3. Make Binary Executable
+```bash
+sudo chmod +x /opt/dcdn/dcdnd
+```
+```bash
+sudo chmod +x /opt/dcdn/pipe-tool
+```
+
 ## Node Registration Process
 1. Log In to Generate Access Token
 ```bash
@@ -38,22 +52,7 @@ sudo ufw reload
 - Save your wallet seedphrase, pub_key and any information given
 
   ---
-
-# Final Setup Instructions
-## Download the Node Client Binary
-1. Create Directory
-```bash
-sudo mkdir -p /opt/dcdn
-```
-2. Transfer your binary files (pipe-tool and dcdnd) downloaded from email to the above directory you just created (from local machine to VPS using termius SFTP: Watch Video to understand better)
-3. Make Binary Executable
-```bash
-sudo chmod +x /opt/dcdn/dcdnd
-```
-```bash
-sudo chmod +x /opt/dcdn/pipe-tool
-```
-
+  
 ## Setup the dcdnd node systemd service
 1. Create the Service File
 ```bash
