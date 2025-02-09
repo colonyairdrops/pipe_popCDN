@@ -27,7 +27,12 @@ sudo rm /etc/systemd/system/dcdnd.service
 sudo systemctl daemon-reload
 ```
 
-#
+### 3. Open Ports
+```bash
+sudo ufw allow 8002/tcp
+sudo ufw allow 8003/tcp
+sudo ufw reload
+```
 
 ## Node Setup
 ### 1. Create directories
