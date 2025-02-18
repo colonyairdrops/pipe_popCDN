@@ -53,3 +53,9 @@ EOF
 ```bash
 sudo systemctl stop pipe && cd $HOME/pipe && wget -O pop "https://dl.pipecdn.app/v0.2.6/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe && journalctl -u pipe -f
 ```
+
+---
+- Done !! Feel free to ask queries in telegram channel
+- Telegram - https://t.me/colonyairdrops
+- Youtube - https://www.youtube.com/@ColonyAirdrops
+- Twitter - https://x.com/colony_airdrops
