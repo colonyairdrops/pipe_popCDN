@@ -29,8 +29,9 @@ sudo systemctl daemon-reload
 
 ### 3. Open Ports
 ```bash
-sudo ufw allow 8002/tcp
+sudo ufw allow 80/tcp
 sudo ufw allow 8003/tcp
+sudo ufw allow 443/tcp
 sudo ufw reload
 ```
 
@@ -45,7 +46,7 @@ cd /root/pipe
 ```
 ### 2. Download Pipe binaries
 ```
-wget -O pop "https://dl.pipecdn.app/v0.2.4/pop"
+wget -O pop "https://dl.pipecdn.app/v0.2.6/pop"
 ```
 
 ### 3. Make pop executable
@@ -66,6 +67,8 @@ After=network.target
 Wants=network-online.target
 
 [Service]
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 User=root
 Group=root
 WorkingDirectory=/root/pipe
@@ -147,5 +150,6 @@ sudo systemctl restart pipe
 - Done !! Feel free to ask queries in telegram channel
 - Telegram - https://t.me/colonyairdrops
 - Youtube - https://www.youtube.com/@ColonyAirdrops
+- Twitter - https://x.com/colony_airdrops
 
 - Credit: @0xmoei
