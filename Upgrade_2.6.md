@@ -51,7 +51,17 @@ EOF
 
 ### 3. Run the Node
 ```bash
-sudo systemctl stop pipe && cd $HOME/pipe && wget -O pop "https://dl.pipecdn.app/v0.2.6/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe && journalctl -u pipe -f
+sudo systemctl stop pipe && cd $HOME/pipe && wget -O pop "https://dl.pipecdn.app/v0.2.6/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe
+```
+
+### 4. Check health
+**1. Check status**
+```
+sudo systemctl status pipe
+```
+**2. Check logs**
+```
+journalctl -u pipe -f
 ```
 
 ---
