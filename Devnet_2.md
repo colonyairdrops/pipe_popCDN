@@ -46,7 +46,7 @@ cd /root/pipe
 ```
 ### 2. Download Pipe binaries
 ```
-wget -O pop "https://dl.pipecdn.app/v0.2.6/pop"
+wget -O pop "https://dl.pipecdn.app/v0.2.7/pop"
 ```
 
 ### 3. Make pop executable
@@ -95,6 +95,12 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable pipe
 sudo systemctl start pipe
+```
+
+### 5. Enable Ports
+```
+cd $HOME && cd pipe
+./pop --enable-80-443
 ```
 
 ### 6. Signup by refferral
