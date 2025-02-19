@@ -21,3 +21,9 @@ sudo systemctl status pipe
 ```
 journalctl -u pipe -f
 ```
+
+---
+- Done !! Feel free to ask queries in telegram channel
+- Telegram - https://t.me/colonyairdrops
+- Youtube - https://www.youtube.com/@ColonyAirdrops
+- Twitter - https://x.com/colony_airdrops
