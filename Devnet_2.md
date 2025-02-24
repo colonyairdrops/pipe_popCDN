@@ -76,7 +76,7 @@ ExecStart=/root/pipe/pop \
     --ram 4 \
     --max-disk 200 \
     --cache-dir /root/pipe/download_cache \
-    --pubKey SOLADDRESS \
+    --pubKey SOLADDRESS 
 Restart=always
 RestartSec=5
 LimitNOFILE=65536
