@@ -5,7 +5,7 @@ This guide provides detailed instructions on how to set up and configure the POP
 * If you are a new user, Signup [here](https://airtable.com/apph9N7T0WlrPqnyc/pagSLmmUFNFbnKVZh/form) and wait until you receive an email with invite code.
 
 ## System Requirements
-* Linux
+* Linux (Ubuntu 24.04 Only, lower version of ubunut is not supported)
 * 16GB RAM (configurable), more the better for higher rewards
 * SSD storage with 100GB+ available space
 * Internet connectivity available 24/7
