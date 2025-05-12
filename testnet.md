@@ -94,6 +94,7 @@ nano config.json
 {
   "pop_name": "your-pop-name",
   "pop_location": "Your Location, Country",
+  "invite_code": "Enter your Invite Code",
   "server": {
     "host": "0.0.0.0",
     "port": 443,
